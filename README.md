@@ -1,13 +1,13 @@
-# Module 1 Project: Microsoft Movie Studio
+# Module 2 Project: King County House Modeling
 * **Student name:** Matt Torok
 
 * **Student pace:** Full Time
 
 * **Instructor name:** Amber Yandow
 
-* **Blog post URL:** https://torokmg.wixsite.com/website/post/module-1-final-project-microsoft-studios
+* **Blog post URL:** https://torokmg.wixsite.com/website/post/mod-2-final-project-king-county-house-modeling
 
-## Backround
+## Background
 
 The goal of this project was to create a model that will identify key features that will best predict housing prices in King County, WA.
 
@@ -15,13 +15,13 @@ The goal of this project was to create a model that will identify key features t
 * **id** - unique identified for a house
 * **dateDate** - house was sold
 * **pricePrice** -  is prediction target
-* **bedroomsNumber** -  of Bedrooms/House
-* **bathroomsNumber** -  of bathrooms/bedrooms
-* **sqft_livingsquare** -  footage of the home
-* **sqft_lotsquare** -  footage of the lot
-* **floorsTotal** -  floors (levels) in house
+* **bedrooms** -  Number of Bedrooms/House
+* **bathrooms** -  Number of bathrooms/bedrooms
+* **sqft_living** -  square footage of the home
+* **sqft_lot** -  square footage of the lot
+* **floors** -  Total floors (levels) in house
 * **waterfront** - House which has a view to a waterfront
-* **view** - Has been viewed
+* **view** - Rating of the view of the house
 * **condition** - How good the condition is ( Overall )
 * **grade** - overall grade given to the housing unit, based on King County grading system
 * **sqft_above** - square footage of house apart from basement
@@ -51,7 +51,7 @@ The goal of this project was to create a model that will identify key features t
  ### Engineered Features
    * **yr_renovated** - changed to mean simply whether the house was renovated or not
    * **yr_built** - grouped years into 6 equal groups
-   * **zipcode_type** - grouped zipcodes into 3 catagories that were determined by the price/sqft of all the homes in each zipcode
+   * **zipcode_type** - grouped zip codes into 3 categories that were determined by the price/sqft of all the homes in each zipcode
    * **sqft_basement** - changed to mean simply whether the house has a basement or not
 
 ## Model Results
@@ -91,7 +91,7 @@ Whether the house has a basement
 What condition the house is in
 What year the house was built in
 Whether the house is on the waterfront
-Which zipcode type each house is in
+Which zip code type each house is in
 
 **Recommendation** 
 Out of the 6 most significant features from our model, half are able to be changed by someone wanting to increase the value of their home: 
